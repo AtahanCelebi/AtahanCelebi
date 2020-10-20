@@ -585,7 +585,7 @@ section .container {
   background-color: #18d26e !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 350px) {
   .testimonials {
     margin: 30px 10px;
   }
