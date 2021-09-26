@@ -4,6 +4,8 @@ if ($_POST['submit']) {
     $token  = $_POST['token'];
     $action = $_POST['action'];
 
+	var_dump($_POST);
+
     $curlData = array(
         'secret' => '6LepaIocAAAAADd3kGQEzvgVYdKgp-SlXR9btEsk',
         'response' => $token
