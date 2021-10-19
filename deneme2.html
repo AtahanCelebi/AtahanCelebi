@@ -247,78 +247,102 @@
                 <h2>Referanslar</h2>
             </div>
             
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css" rel="stylesheet" />
-           
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <a class="swiper-slide" href="https://open.spotify.com/episode/44h9HohRMwhpHqif7z8ECm?si=ofYZvAAETHWhZxw10x-41g" onclick="return myFunction();">
-                        </a>
-                        <a class="swiper-slide" href="https://open.spotify.com/episode/7bz18JdAcFcGa1CXfJgqxT?si=gPAN-WwlR36zbpUBUwH8dw" onclick="return myFunction();"></a>
-                        <a class="swiper-slide" href="https://open.spotify.com/episode/0vpWlwBuF0HJFUI9U6lNEm?si=vhqDaFyqQCGqfmUz95sRhA" onclick="return myFunction();"></a>
-                        <a class="swiper-slide" href="https://open.spotify.com/episode/0vpWlwBuF0HJFUI9U6lNEm?si=vhqDaFyqQCGqfmUz95sRhA" onclick="return myFunction();"></a>
-                        <a class="swiper-slide" href="https://open.spotify.com/episode/0vpWlwBuF0HJFUI9U6lNEm?si=vhqDaFyqQCGqfmUz95sRhA" onclick="return myFunction();"></a>
-
-                    </div>
-                    <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
-                </div>
-          
-           
-        
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-                align-content: right
-            }
-
-            .swiper-container {
-                width: 350px;
-                padding-top: 50px;
-                padding-bottom: 50px;
-            }
-
-            .swiper-slide {
-                background-position: center;
-                background-size: cover;
-                width: 150px;
-                height: 150px;
-            }
-
-                .swiper-slide:nth-child(1) {
-                    background-image: url(https://i.hizliresim.com/d3ca40k.png)
-                }
-
-                .swiper-slide:nth-child(2) {
-                    background-image: url(https://i.hizliresim.com/eov8iuc.png)
-                }
-
-                .swiper-slide:nth-child(3) {
-                    background-image: url(https://i.hizliresim.com/87b612i.png)
-                }
             
-                    .swiper-slide:nth-child(4) {
-                            background-image: url(https://i.hizliresim.com/i645l2d.png)
-                        }
-                    .swiper-slide:nth-child(5) {
-                            background-image: url(https://i.hizliresim.com/s9dndvm.png)
-                        }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css" rel="stylesheet" />
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <a class="swiper-slide" href="https://open.spotify.com/episode/44h9HohRMwhpHqif7z8ECm?si=ofYZvAAETHWhZxw10x-41g" onclick="return myFunction();">
+    </a>
+    <a class="swiper-slide" href="https://open.spotify.com/episode/7bz18JdAcFcGa1CXfJgqxT?si=gPAN-WwlR36zbpUBUwH8dw" onclick="return myFunction();"></a>
+    <a class="swiper-slide" href="https://open.spotify.com/episode/0vpWlwBuF0HJFUI9U6lNEm?si=vhqDaFyqQCGqfmUz95sRhA" onclick="return myFunction();"></a>
+    
+  </div>
+  <div class="swiper-pagination"></div>
+  
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</body>
+<script>
+function myFunction() {
+    document.getElementById(".myDiv").style.flexGrow = "3"; 
+}
+
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+</script>
+<style>body {
+  margin: 0;
+  padding: 0;
+  align-content: right
+}
+
+.swiper-container {
+  width: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide:nth-child(1) {
+  background-image: url(https://i.hizliresim.com/NSGnsz.png)
+  
+}
+
+.swiper-slide:nth-child(2) {
+  background-image: url(https://i.hizliresim.com/YBAFPO.png)
+}
+
+.swiper-slide:nth-child(3) {
+  background-image: url(https://i.hizliresim.com/D8qenH.png)
+}
 
 
 
 
-            a.swiper-slide {
-                text-align: justify;
-            }
-            }
-        </style>
+a.swiper-slide{
+  text-align: justify;
+}
+
+}</style>
 
 
         </div><!-- End Skills -->
