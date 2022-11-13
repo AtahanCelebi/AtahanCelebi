@@ -1198,3 +1198,11 @@ img {
     height: auto;
     opacity: 1;
 }
+
+.certificateimg{
+  float: left;
+    width: 500px;
+    height: 80%;
+    background-size: cover;
+    padding-bottom: 40px;
+   }
