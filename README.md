@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **ASP.NET CORE**
 
-- 👨‍💻 All of my projects are available at [https://atahancelebi.com/](https://atahancelebi.com/)
+- 👨‍💻 All of my projects are available at [https://atahancelebi.com/](https://atahancelebi.com.tr)
 
 - 📫 How to reach me **atahancelebi98@gmail.com**
 
