@@ -7,11 +7,11 @@
 
 - 🌱 I’m currently learning **ASP.NET CORE**
 
-- 👨‍💻 All of my projects are available at [https://atahancelebi.com.tr/](https://atahancelebi.com)
+- 👨‍💻 All of my projects are available at [https://atahancelebi.com/](https://atahancelebi.com)
 
 - 📫 How to reach me **atahancelebi98@gmail.com**
 
-- 📄 Know about my experiences [https://atahancelebi.com.tr/assets/img/AtahanCelebiResume.pdf](https://atahancelebi.com/assets/img/AtahanCelebiResume.pdf)
+- 📄 Know about my experiences [https://atahancelebi.com/assets/img/AtahanCelebiResume.pdf](https://atahancelebi.com/assets/img/AtahanCelebiResume.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
